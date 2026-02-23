@@ -116,3 +116,68 @@ body{
     width: 100%;
     height: auto;
 }
+
+/*######################################################################*/
+
+.services{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 100px;
+    align-items: center;
+}
+
+.services h3{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.services p{
+    width: 50%;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.services-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service{
+    width: 30%;
+    height: 300px;
+    position: relative;
+}
+
+.service-image{
+    opacity: 0.9;
+}
+
+.service-image img{
+    width: 100%;
+    height: auto;
+}
+
+.service-description{
+    position: absolute;
+    bottom: 5%;  
+    color: #ffff;
+    padding: 20px;
+}
+
+.service-description p{
+    width: 100%;
+    text-align: left;
+}
+
+.service-description h4{
+    text-transform: uppercase;
+    margin: 3px 0;
+}
+
+.service-description i{
+    color: gold;
+    font-size: 30px;
+}
+
