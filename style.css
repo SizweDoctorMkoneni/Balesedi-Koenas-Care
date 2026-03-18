@@ -252,3 +252,45 @@ h3{
     border: 1px solid rgb(190, 170, 170);
 }
 
+/*#########################################################################################*/
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+    color: #ffff;
+}
+
+.quick-links{
+    margin-top: 90px;
+}
+
+.links-list a{
+    text-decoration: none;
+    margin: 20px;
+    color: #ffff;
+}
+
+.links-list a li{
+    list-style-type: none;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+}
+.contacts .contact{
+    margin: 20px;
+    margin-left: 0;
+}
+
+.logo-poster img{
+    width: 400px;
+    height: 400px;
+}
+
+
+
+
