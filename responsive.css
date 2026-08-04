@@ -1,0 +1,215 @@
+/******************************** 
+    Extra Small Devices - 402px 
+*********************************/
+@media (max-width: 402px) {
+    body{
+        font-size: 12px;
+    }
+
+    .ctabar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100px;
+    }
+
+    .ctabar-item{
+        margin-bottom: 5px;
+    }
+
+    .ctabar-item a{
+        font-weight: 600;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:space-between;
+        padding: 0 20px;
+    }
+
+    .navlist{
+        display: none;
+    }
+
+    .humburger-container{
+        display: flex;
+    }
+
+    .humburger-container img{
+        width: 45px;
+        height: 45px;
+    }
+
+    .remove-menu{
+        display: none;
+    }
+
+    .logo{
+        width: 80px;
+        height: 80px;
+    }
+
+    .quote-btn{
+        height: 3em;
+        font-weight: 600;
+        border: 2px solid;
+    }
+
+    .hero-section{
+        height: 500px;
+    }
+
+    .hero-image{
+        height: 100%;
+    }
+
+    .hero-text{
+        top: 15%;
+        left: 0%;
+        padding: 0 20px;
+    }
+
+    .hero-text h1{
+        text-align: center;
+        font-size: 2.2rem;
+        margin-bottom: 15px;
+    }
+
+    .hero-text p{
+        margin-bottom: 40px;
+    }
+
+    .services{
+        padding: 60px 20px 100px 20px;
+    }
+
+    .services h3{
+        text-align: center;
+        width: 100%;
+        font-size: 2.2rem;
+        margin-bottom: 30px;
+    }
+
+    .services p{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .services-container{
+        padding: 0 20px;
+    }
+
+    .service{
+        width: 100%;
+    }
+
+    .service-image img{
+        width: 100%;
+    }
+
+    .service-description{
+        align-items: center;
+    }
+
+    .service-description h4{
+        text-align: center;
+    }
+
+    .service-description p{
+        text-align: center;
+    }
+
+    .cta-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 20px;
+    }
+
+    .cta-text{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .cta-text h3{
+        font-size: 2.2em;
+        margin-bottom: 30px;
+    }
+
+    .cta-text p{
+        width: 80%;
+    }
+
+    .cta-btns{
+        width: 70%;
+    }
+
+    .cta-btns .btn{
+        width: auto;
+        height: auto;
+        border: 2px solid;
+        font-weight: 600;
+    }
+
+    .cta-btns .btn:nth-of-type(2){
+        border: 2px solid;
+    }
+
+    .cta-btns .btn:nth-of-type(2):hover{
+        border: none;
+    }
+
+    .cta-image{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .cta-image img{
+        width: 70%;
+        height: 70%;
+    }
+
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-container h4{
+        font-size: 1.3em;
+    }
+
+    .contacts{
+        margin-bottom: 30px;
+    }
+
+    .quick-links, .contacts{
+        text-align: center;
+        width: 60%;
+        margin-top: 50px;
+    }
+
+    .contacts .contact{
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    .footer-container .contacts h4{
+        margin-bottom: 20px;
+    }
+
+    .logo-poster{
+        margin-bottom: 30px;
+    }
+
+    .logo-poster img{
+        width: 130px;
+        height: 130px;
+    }
+}
