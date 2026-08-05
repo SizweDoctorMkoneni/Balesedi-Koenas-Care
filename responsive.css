@@ -1,7 +1,202 @@
 /******************************** 
-    Extra Small Devices - 402px 
+    Medium Devices - 780px
 *********************************/
-@media (max-width: 402px) {
+@media (max-width: 780px){
+    .ctabar{
+        height: 140px;
+        flex-direction: column;
+        font-size: 1.2em;
+        align-items: center;
+    }
+
+    .ctabar-item{
+        margin-bottom: 7px;
+    }
+    
+    .logo img{
+        width: 140px;
+        height: 140px;
+    }
+
+    .navlist{
+        display: none;
+    }
+
+    .quote-btn{
+        width: auto;
+        height: auto;
+        border: 3px solid;
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+
+    .humburger-container{
+        display: flex;
+    }
+
+    .remove-menu{
+        display: none;
+    }
+
+    .hero-image{
+        height: 650px;
+    }
+
+    .hero-text{
+        top: 20%;
+        left: 10%;
+        width: 80%;
+        text-align: center;
+    }
+
+    .hero-text h1{
+        margin-bottom: 25px;
+        font-size: 3em;
+    }
+
+    .hero-text p{
+        margin-bottom: 30px;
+    }
+
+    .services{
+        padding: 60px 50px 90px 50px;
+    }
+
+    .services h3{
+        margin-bottom: 0;
+    }
+
+    .services p{
+        width: 90%;
+        margin: 35px 0;
+        font-size: 1.2em;
+    }
+
+    .services a{
+        width: 100%;
+    }
+
+    .service{
+        width: 100%;
+        height: auto;
+    }
+
+    .service-description h4{
+        font-size: 1.6rem;
+    }
+
+    .service-description p{
+        font-size: 1.2rem;
+        margin: 30px 0;
+    }
+
+    .cta-container{
+        flex-direction: column;
+        padding: 30px 35px 0 35px;
+        align-items: center;
+    }
+
+    .cta-text{
+        align-items: center;
+        width: 100%;
+    }
+    .cta-text h3{
+        text-align: center;
+        font-size: 2.6rem;
+    }
+
+    .cta-text p{
+        width: 80%;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .cta-btns{
+        width: 75%;
+    }
+
+    .cta-btns .btn{
+        width: auto;
+        height: auto;
+        border: 3px solid;
+        font-weight: 600;
+        margin-right: 2px;
+        font-size: 1.2rem;
+    }
+
+    .cta-btns .btn:nth-of-type(2){
+        border: 3px solid;
+        margin-left: 2px;
+    }
+
+    .cta-btns .btn:nth-of-type(2):hover{
+        border: none;
+    }
+
+    .cta-image{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .cta-image img{
+        width: 70%;
+        height: 70%;
+    }
+
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-container h4{
+        font-size: 1.6em;
+    }
+
+    .quick-links li{
+        font-size: 1.2rem;
+    }
+
+    .contact {
+        font-size: 1.2rem;
+    }
+
+    .contacts{
+        margin-bottom: 30px;
+    }
+
+    .quick-links, .contacts{
+        text-align: center;
+        width: 60%;
+        margin-top: 50px;
+    }
+
+    .contacts .contact{
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    .footer-container .contacts h4{
+        margin-bottom: 20px;
+    }
+
+    .logo-poster{
+        margin-bottom: 50px;
+    }
+
+    .logo-poster img{
+        width: 200px;
+        height: 200px;
+    }
+    
+}
+
+/******************************** 
+    Extra Small Devices - 480px 
+*********************************/
+@media (max-width: 480px) {
     body{
         font-size: 12px;
     }
@@ -51,8 +246,12 @@
         height: 80px;
     }
 
+    .btn{
+        padding: 5px;
+    }
+
     .quote-btn{
-        height: 3em;
+        height: auto;
         font-weight: 600;
         border: 2px solid;
     }
@@ -115,6 +314,7 @@
 
     .service-description h4{
         text-align: center;
+        font-size: 1.5em;
     }
 
     .service-description p{
@@ -153,10 +353,12 @@
         height: auto;
         border: 2px solid;
         font-weight: 600;
+        margin-right: 2px;
     }
 
     .cta-btns .btn:nth-of-type(2){
         border: 2px solid;
+        margin-left: 2px;
     }
 
     .cta-btns .btn:nth-of-type(2):hover{
