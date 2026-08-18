@@ -51,7 +51,7 @@ body{
     align-items: center;
     background-color: black;
     color: #ffff;
-    padding: 10px 50px;
+    padding: 10px 80px;
     width: 100%;
 }
 
@@ -140,19 +140,20 @@ body{
     flex-direction: column;
     align-items: center;
     padding: 100px 80px;
+    margin-top: 70px;
     align-items: center;
 }
 
 h3{
     font-size: 2.5rem;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .services p{
     width: 50%;
     text-align: center;
     line-height: 1.5;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .services-container{
@@ -252,6 +253,7 @@ h3{
 .cta-btns .btn{
     background-color: black;
     color: #ffff;
+    font-weight: 600;
 }
 
 .cta-btns .btn:nth-of-type(2){

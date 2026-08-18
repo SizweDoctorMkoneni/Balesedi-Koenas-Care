@@ -48,12 +48,10 @@
     }
 
     .services h3{
-        font-size: 2.8rem;
         margin-bottom: 30px;
     }
 
     .services p{
-        font-size: 1.3rem;
         width: 80%;
         margin-bottom: 30px;
     }
@@ -63,8 +61,8 @@
     }
 
     .service{
-        width: 340px;
-        height: 340px;
+        width: 430px;
+        height: 400px;
     }
 
     .service-image{
@@ -88,7 +86,6 @@
     }
 
     .cta-text p{
-        font-size: 1.3rem;
         width: 100%;
     }
 
@@ -294,12 +291,10 @@
         width: auto;
         height: auto;
         font-weight: 600;
-        margin-right: 2px;
     }
 
     .cta-btns .btn:nth-of-type(2){
         border: 1px solid;
-        margin-left: 2px;
     }
 
     .cta-btns .btn:nth-of-type(2):hover{
