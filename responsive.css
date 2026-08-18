@@ -145,7 +145,22 @@
     }
 
     .navlist{
+        position: absolute;
+        top: 140px;
+        height: 350px;
+        width: 100%;
+        background-color: black;
         display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: left;
+        transition: .3s ease;
+        z-index: 1;
+        padding: 100px 0 40px 20px;
+    }
+
+    .navlist.active{
+        display: flex;
     }
 
     .quote-btn{
@@ -158,9 +173,25 @@
 
     .humburger-container{
         display: flex;
+        z-index: 1;
     }
 
-    .remove-menu{
+    .humburger-container:hover{
+        cursor: pointer;
+    }
+
+    .humburger-container.active .humburger-menu{
+        display: none;
+    }
+
+    .humburger-container.active .remove-menu{
+        display: flex;
+        width: 44px;
+        height: 44px;
+        position: relative;
+    }
+
+    .humburger-container .remove-menu{
         display: none;
     }
 

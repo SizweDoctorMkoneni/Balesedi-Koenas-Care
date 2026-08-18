@@ -276,6 +276,11 @@ h3{
     color: #ffff;
 }
 
+.links-list a:hover{
+    cursor: pointer;
+    color: red;
+}
+
 .links-list a li{
     list-style-type: none;
 }
