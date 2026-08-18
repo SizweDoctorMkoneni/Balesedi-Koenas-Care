@@ -12,24 +12,28 @@ body{
 
 .btn{
     width: auto;
-    height: 44px;
-    padding: 10px 15px;
+    height: 37px;
+    padding: 8px 15px;
     border: none;
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
-
 }
 
 .header{
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 .ctabar{
+    position: fixed;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    height: 50px;
+    height: 55px;
     padding: 20px 0 40px 0;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
 }
 
 .ctabar a{
@@ -39,17 +43,21 @@ body{
 
 .navbar{
     display: flex;
+    position: fixed;
+    top: 55px;
+    z-index: 1;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     background-color: black;
     color: #ffff;
-    padding: 10px 100px;
+    padding: 10px 50px;
+    width: 100%;
 }
 
 .logo{
-    width: 140px;
-    height:140px;
+    width: 100px;
+    height:100px;
 }
 
 .logo img{
@@ -80,14 +88,13 @@ body{
 .quote-btn{
     background-color: red;
     color: #ffff;
-    border: 1px solid #ffff;
+    font-weight: 600;
 }
 
 .quote-btn:hover{
     cursor: pointer;
     background-color: rgb(190, 170, 170);
     color: #ffff;
-    border: 1px solid rgb(190, 170, 170);
 }
 
 .humburger-container{
@@ -96,16 +103,18 @@ body{
 
 .hero-section{
     position: relative;
+    top: 120px;
 }
 
 .hero-text{
     position: absolute;
     top: 30%;
-    left: 15%;
+    left: 20%;
     color: #ffff;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .hero-text h1{
@@ -121,7 +130,7 @@ body{
 
 .hero-image{
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 /*#########################################################################################*/
@@ -130,7 +139,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 60px 100px 90px 100px;
+    padding: 100px 80px;
     align-items: center;
 }
 
@@ -150,7 +159,7 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
     flex-wrap: wrap;
 }
 
@@ -235,9 +244,9 @@ h3{
 }
 
 .cta-btns{
-    width: 30%;
+    width: 45%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .cta-btns .btn{
@@ -254,6 +263,14 @@ h3{
     cursor: pointer;
     background-color: rgb(190, 170, 170);
     border: 1px solid rgb(190, 170, 170);
+}
+
+.cta-image{
+    width: 45%;
+}
+
+.cta-image img{
+    width: 100%;
 }
 
 /*#########################################################################################*/
