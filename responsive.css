@@ -41,6 +41,14 @@
         margin-top: 30px;
     }
 
+    .about-header{
+        height: 185px;
+    }
+
+    .about-content{
+        text-align: center;
+    }
+
     .services{
         padding-top: 100px;
         padding-left: 50px;
@@ -138,6 +146,10 @@
     Medium Devices - 780px
 *********************************/
 @media (max-width: 780px){
+
+    body{
+        font-size: 14px;
+    }
     .ctabar{
         height: auto;
         flex-direction: column;
@@ -155,7 +167,7 @@
     }
 
     .navbar{
-        top: 136px;
+        top: 120px;
     }
 
     .navlist{
@@ -228,8 +240,12 @@
     }
 
     .about{
-        padding-top: 190px;
+        padding-top: 90px;
         text-align: center;
+    }
+
+    .about-header{ 
+        height: 160px; 
     }
 
     .services{
@@ -395,8 +411,8 @@
     }
 
     .humburger-container img{
-        width: 45px;
-        height: 45px;
+        width: 40px;
+        height: 40px;
     }
 
     .remove-menu{
@@ -409,7 +425,7 @@
     }
 
     .btn{
-        padding: 10px;
+        padding: 7px;
     }
 
     .quote-btn{
@@ -444,6 +460,14 @@
 
     .about{
         align-items: center;
+        padding-top: 50px;
+    }
+    .about-header{ 
+        height: 140px; 
+    }
+
+    .about-content{
+        padding: 40px 30px;
     }
 
     .services{
@@ -511,7 +535,7 @@
     }
 
     .cta-btns{
-        width: 70%;
+        width: 75%;
     }
 
     .cta-btns .btn{
