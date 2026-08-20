@@ -17,6 +17,8 @@
         margin: 0 10px;
     }
 
+    /*#########################################################################################*/
+
     .hero-image{
         height: 90vh;
     }
@@ -41,6 +43,8 @@
         margin-top: 30px;
     }
 
+    /*#########################################################################################*/
+
     .about-header{
         height: 185px;
     }
@@ -48,6 +52,8 @@
     .about-content{
         text-align: center;
     }
+
+    /*#########################################################################################*/
 
     .services{
         padding-top: 100px;
@@ -81,8 +87,40 @@
         width: 100%;
     }
 
+    /*#########################################################################################*/
+
+    .contact-header{
+        height: 185px;
+    }
+
+    .sub-heading{
+        margin: 40px 0 15px 0;
+    }
+
+    .contact-content{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 20px 0;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 40px;
+    }
+
+    .content{ 
+        width: 45%;
+    }
+
+    .content iframe{
+        width: 100%;
+        height: 250px;
+    }
+
+    /*#########################################################################################*/
+
     .cta-container{
-        padding: 60px 60px;
+        padding: 60px;
     }
 
     .cta-text{
@@ -122,6 +160,8 @@
     .cta-image img{
         width: 100%;
     }
+
+    /*#########################################################################################*/
 
     .footer-container{
         padding: 0 20px 30px 20px;
@@ -219,6 +259,8 @@
         display: none;
     }
 
+    /*#########################################################################################*/
+
     .hero-image{
         height: 85vh;
     }
@@ -239,6 +281,8 @@
         margin-bottom: 30px;
     }
 
+    /*#########################################################################################*/
+
     .about{
         padding-top: 90px;
         text-align: center;
@@ -247,6 +291,8 @@
     .about-header{ 
         height: 160px; 
     }
+
+    /*#########################################################################################*/
 
     .services{
         padding: 100px 50px;
@@ -278,6 +324,38 @@
     .service-description p{
         margin: 5px 0 0 0;
     }
+
+    /*#########################################################################################*/
+
+    .contact{
+        padding-top: 90px;
+    }
+
+    .contact-header{
+        height: 160px;
+    }
+
+    .contact-content{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 30px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 40px;
+    }
+
+    .content{ 
+        width: 47%;
+    }
+
+    .content iframe{
+        width: 100%;
+        height: 250px;
+    }
+
+    /*#########################################################################################*/
 
     .cta-container{
         flex-direction: column;
@@ -329,6 +407,8 @@
         width: 65%;
         height: 65%;
     }
+
+    /*#########################################################################################*/
 
     .footer-container{
         flex-direction: column;
