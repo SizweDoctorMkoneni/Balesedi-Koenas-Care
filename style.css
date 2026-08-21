@@ -91,6 +91,11 @@ body{
     font-weight: 600;
 }
 
+.quote-btn a{
+    text-decoration: none;
+    color: #ffff;
+}
+
 .quote-btn:hover{
     cursor: pointer;
     background-color: rgb(190, 170, 170);
