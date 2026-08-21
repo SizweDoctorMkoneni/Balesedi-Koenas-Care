@@ -207,7 +207,7 @@
     }
 
     .navbar{
-        top: 120px;
+        top: 95px;
     }
 
     .navlist{
@@ -284,7 +284,7 @@
     /*#########################################################################################*/
 
     .about{
-        padding-top: 90px;
+        padding-top: 38px;
         text-align: center;
     }
 
@@ -328,7 +328,7 @@
     /*#########################################################################################*/
 
     .contact{
-        padding-top: 90px;
+        padding-top: 65px;
     }
 
     .contact-header{
@@ -475,7 +475,7 @@
 
     .navbar{
         display: flex;
-        top: 105px;
+        top: 85px;
         flex-direction: row;
         align-items: center;
         justify-content:space-between;
@@ -540,7 +540,7 @@
 
     .about{
         align-items: center;
-        padding-top: 50px;
+        padding-top: 25px;
     }
     .about-header{ 
         height: 140px; 
@@ -548,6 +548,10 @@
 
     .about-content{
         padding: 40px 30px;
+    }
+
+    .contact{
+        padding-top: 25px;
     }
 
     .services{
