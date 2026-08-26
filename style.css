@@ -24,14 +24,20 @@ body{
     height: 100vh;
 }
 
-.ctabar{
+.top-navigation{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     position: fixed;
+    z-index: 1;
+}
+
+.ctabar{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     height: 55px;
     padding: 20px 0 40px 0;
-    z-index: 1;
     background-color: white;
     width: 100%;
 }
@@ -43,9 +49,6 @@ body{
 
 .navbar{
     display: flex;
-    position: fixed;
-    top: 55px;
-    z-index: 1;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;

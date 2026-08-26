@@ -206,13 +206,9 @@
         height: 90px;
     }
 
-    .navbar{
-        top: 95px;
-    }
-
     .navlist{
         position: absolute;
-        top: 0;
+        top: 120px;
         left: 0;
         height: 350px;
         width: 100%;
@@ -475,7 +471,6 @@
 
     .navbar{
         display: flex;
-        top: 85px;
         flex-direction: row;
         align-items: center;
         justify-content:space-between;
@@ -484,6 +479,7 @@
 
     .navlist{
         display: none;
+        top: 86px;
     }
 
     .humburger-container{
