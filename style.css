@@ -139,6 +139,8 @@ body{
 .hero-image{
     width: 100%;
     height: 100%;
+    background-position: center;
+    background-size: cover;
 }
 
 /*#########################################################################################*/
@@ -316,7 +318,9 @@ h3{
     display: flex;
     flex-direction: column;
     margin-top: 90px;
+    align-items: flex-start;
 }
+
 .contacts .contact{
     margin: 20px;
     margin-left: 0;
@@ -411,23 +415,41 @@ h3{
     width: 30%;
 }
 
-.content iframe{
+.location-map{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.location-map h2{
+    margin-bottom: 30px;
+}
+
+.location-map iframe{
     width: 100%;
     height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .content h2{
-
     margin-bottom: 15px;
 }
 
 .contact-form{
     display: flex;
+    flex-direction: column;
     width: 50%;
     align-items: center;
-    border: 1px solid red;
     padding: 20px;
     margin-bottom: 60px;
+}
+
+.contact-form h2{
+    margin-bottom: 20px;
 }
 
 .contact-form form{
@@ -462,6 +484,7 @@ h3{
 
 input::placeholder, textarea::placeholder{
     font-family: 'Poppins', sans-serif;
+    font-size: 16px;
 }
 
 #message textarea{

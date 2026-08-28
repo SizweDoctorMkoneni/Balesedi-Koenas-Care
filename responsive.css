@@ -94,7 +94,7 @@
     }
 
     .sub-heading{
-        margin: 40px 0 15px 0;
+        margin: 40px 0 40px 0;
     }
 
     .contact-content{
@@ -115,6 +115,10 @@
     .content iframe{
         width: 100%;
         height: 250px;
+    }
+
+    .contact-form{
+    width: 70%;
     }
 
     /*#########################################################################################*/
@@ -174,6 +178,10 @@
 
     .quick-links{
         width: 33%;
+    }
+
+    .contacts{
+        align-items: flex-start;
     }
 
     .logo-poster img{
@@ -351,6 +359,10 @@
         height: 250px;
     }
 
+    .contact-form{
+    width: 80%;
+    }
+
     /*#########################################################################################*/
 
     .cta-container{
@@ -417,6 +429,7 @@
 
     .contacts{
         margin-bottom: 30px;
+        align-items: center;
     }
 
     .quick-links, .contacts{
@@ -550,6 +563,17 @@
         padding-top: 25px;
     }
 
+    .sub-heading{
+        margin-bottom: 20px;
+    }
+    .contact .contact-form{
+        margin-bottom: 10px;
+    }
+
+    .contact-content{
+        margin-bottom: 10px;
+    }
+
     .services{
         padding: 100px 20px;
     }
@@ -681,6 +705,11 @@
         margin: 0;
         padding: 10px 0;
     }
+
+    input::placeholder, textarea::placeholder{
+        font-family: 'Poppins', sans-serif;
+        font-size: 12px;
+    }   
 
     .footer-container .contacts h4{
         margin-bottom: 20px;
