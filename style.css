@@ -10,6 +10,11 @@ body{
     color: black;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 .btn{
     width: auto;
     height: 37px;
@@ -91,7 +96,6 @@ body{
 .quote-btn{
     background-color: red;
     color: #ffff;
-    font-weight: 600;
 }
 
 .quote-btn a{
@@ -116,8 +120,10 @@ body{
 
 .hero-text{
     position: absolute;
-    top: 30%;
-    left: 20%;
+    width: 90%;
+    height: auto;
+    top: 25%;
+    left: 5%;
     color: #ffff;
     display: flex;
     flex-direction: column;
@@ -126,14 +132,17 @@ body{
 }
 
 .hero-text h1{
-    font-size: 3rem;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .hero-text p{
     text-align: center;
     font-size: 1.2rem;
     line-height: 1.5;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    width: 80%;
 }
 
 .hero-image{
@@ -263,7 +272,6 @@ h3{
 .cta-btns .btn{
     background-color: black;
     color: #ffff;
-    font-weight: 600;
 }
 
 .cta-btns .btn:nth-of-type(2){

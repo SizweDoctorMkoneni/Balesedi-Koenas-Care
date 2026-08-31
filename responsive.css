@@ -23,13 +23,8 @@
         height: 90vh;
     }
 
-    .hero-text{
-        top: 15%;
-        left: 5%;
-    }
-
     .hero-text h1{
-        font-size: 3.5rem;
+        font-size: 2.3rem;
         width: 70%;
         text-align: center;
         margin-bottom: 15px;
@@ -177,7 +172,6 @@
         width: auto;
         height: auto;
         margin: 0 2px;
-        font-weight: 600;
     }
 
     .cta-btns .btn:nth-of-type(2){
@@ -299,7 +293,7 @@
     }
 
     .hero-text{
-        top: 27%;
+        top: 20%;
         left: 10%;
         width: 80%;
         text-align: center;
@@ -307,11 +301,12 @@
 
     .hero-text h1{
         margin-bottom: 25px;
-        font-size: 3em;
+        font-size: 2rem;
     }
 
     .hero-text p{
-        margin-bottom: 30px;
+        margin-bottom: 20px;
+        width: 100%;
     }
 
     /*#########################################################################################*/
@@ -471,7 +466,6 @@
     .cta-btns .btn{
         width: auto;
         height: auto;
-        font-weight: 600;
     }
 
     .cta-btns .btn:nth-of-type(2){
@@ -557,10 +551,6 @@
         margin-bottom: 5px;
     }
 
-    .ctabar-item a{
-        font-weight: 600;
-    }
-
     .navbar{
         display: flex;
         flex-direction: row;
@@ -598,7 +588,6 @@
 
     .quote-btn{
         height: auto;
-        font-weight: 600;
     }
 
     .hero-section{
@@ -610,20 +599,25 @@
     }
 
     .hero-text{
-        top: 25%;
+        top: 15%;
         left: 0;
-        padding: 0 20px;
+        padding: 0;
         width: 100%;
     }
 
     .hero-text h1{
         text-align: center;
-        font-size: 2.2rem;
+        font-size: 1.6rem;
         margin-bottom: 15px;
     }
 
     .hero-text p{
-        margin-bottom: 30px;
+        margin-bottom: 5px;
+        width: 90%;
+    }
+
+    .hero-text .quote-btn{
+        margin-top: 15px;
     }
 
     .about{
@@ -737,6 +731,7 @@
     .service-description p{
         text-align: center;
         margin: 0;
+        font-size: small;
     }
 
     .service-description .fa-solid{
@@ -769,18 +764,18 @@
 
     .cta-btns{
         width: 75%;
+        flex-direction: column;
     }
 
-    .cta-btns .btn{
-        width: auto;
+    .cta-btns .btn:nth-of-type(1){
+        width: 100%;
         height: auto;
-        font-weight: 600;
-        margin-right: 2px;
+        margin-bottom: 15px;
     }
 
     .cta-btns .btn:nth-of-type(2){
         border: 1px solid;
-        margin-left: 2px;
+        width: 100%;
     }
 
     .cta-btns .btn:nth-of-type(2):hover{
