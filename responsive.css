@@ -305,8 +305,13 @@
     }
 
     .hero-text p{
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         width: 100%;
+        font-size: 1.1em;
+    }
+
+    .hero-text .quote-btn{
+        margin-top: 15px;
     }
 
     /*#########################################################################################*/
@@ -342,6 +347,7 @@
 
     .our-services{
         padding-top: 38px;
+        padding-bottom: 50px;
     }
 
     .service-header{
@@ -350,6 +356,7 @@
 
     .service-content{
         padding: 10px;
+        text-align: center;
     }
 
     .service-cards{
@@ -612,8 +619,9 @@
     }
 
     .hero-text p{
-        margin-bottom: 5px;
+        margin-bottom: 10px;
         width: 90%;
+        font-size: 14px;
     }
 
     .hero-text .quote-btn{
