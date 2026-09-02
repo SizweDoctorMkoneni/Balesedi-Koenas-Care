@@ -52,6 +52,11 @@ a{
     color: red;
 }
 
+.ctabar-item i{
+    margin-right: 8px;
+    color: red;
+}
+
 .navbar{
     display: flex;
     flex-direction: row;
