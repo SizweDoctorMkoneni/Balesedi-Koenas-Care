@@ -356,6 +356,14 @@
         padding: 0;
         text-align: center;
     }
+
+    .explore-btn{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        margin-top: 60px;
+    }
     
 
     /*####################################################################*/

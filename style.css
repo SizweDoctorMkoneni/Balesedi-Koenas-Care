@@ -15,6 +15,10 @@ a{
     color: white;
 }
 
+.fa-arrow-right{
+    margin-left: 5px;
+}
+
 .btn{
     width: auto;
     height: 37px;
@@ -236,6 +240,30 @@ h3{
     font-size: 30px;
 }
 
+.explore-btn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+}
+
+
+.explore-btn button{
+    width: auto;
+    height: 40px;
+    padding: 0 20px;
+    background-color: red;
+    color: #ffff;
+    border: none;
+}
+
+.explore-btn button:hover{
+    cursor: pointer;
+    background-color: rgb(190, 170, 170);
+    color: #ffff;
+}
+
 /*#########################################################################################*/
 
 .cta{
@@ -394,7 +422,6 @@ h3{
     height: auto;
     background-color:beige;
     padding: 20px;
-    border-radius: 10px;
 }
 
 .framework span{
