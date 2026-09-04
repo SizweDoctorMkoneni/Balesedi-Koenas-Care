@@ -672,5 +672,36 @@ input::placeholder, textarea::placeholder{
     margin-bottom: 5px;
 }
 
+/*#######################################################################*/
+
+.inspection-booking{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inspection-booking-header{
+    margin-top: 150px;
+    height: 160px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/book-an-inspection.png);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 80px;
+    width: 70%;
+}
+
 
 
