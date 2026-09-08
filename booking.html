@@ -59,51 +59,43 @@
         </div>
 
         <div class="form-container">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            <p class="form-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Molestias optio neque cupiditate praesentium voluptate atque.
             </p>
             <form action="https://formsubmit.co/kmokoena48@gmail.com" method="POST" class="form">
-                    <fieldset class="fieldset">
-                        <div id="name">Name <input type="text" id="name" name="name" placeholder="Enter your name"><span class="error-message" id="name-error"></span></div>
+                    <h3>Vehicle information</h3>
+                    <p>Please provide us with the details of your car.</p>
+                    <fieldset class="fieldset-vehicle-info">
+                        <div id="make">Make <input type="text" id="make" name="make" placeholder="Enter vehicle make"><span class="error-message" id="make-error"></span></div>
+                        <div id="model">Model <input type="text" id="model" name="model" placeholder="Enter vehicle model"><span class="error-message" id="model-error"></span></div>
+                        <div id="year">Year of model <input type="text" id="year" name="year" placeholder="Enter year of model"><span class="error-message" id="year-error"></span></div>
                     </fieldset>
-                    <fieldset class="fieldset">
-                        <div id="email">Email <input type="email" id="email" name="email" placeholder="Enter your email address"><span class="error-message" id="email-error"></span></div>
+                    <h3>Contact information</h3>
+                    <p>Please provide us with your contact details.</p>
+                    <fieldset class="fieldset-contact-info">
+                        <div id="name">First name <input type="text" id="name" name="name" placeholder="Enter your first name"><span class="error-message" id="name-error"></span></div>
+                        <div id="surname">Surname <input type="text" id="surname" name="surname" placeholder="Enter your surname"><span class="error-message" id="surname-error"></span></div>
+                        <div id="phone">Phone number <input type="tel" id="phone" name="phone" placeholder="Enter your phone number"><span class="error-message" id="phone-error"></span></div>
+                        <div id="email">Email Address <input type="email" id="email" name="email" placeholder="Enter your email address"><span class="error-message" id="email-error"></span></div>
                     </fieldset>
-                    <fieldset class="fieldset">
-                        <div id="message">Message
-                            <textarea name="message" rows="5" placeholder="Project details"></textarea>
+                    <h3>Inspection information</h3>
+                    <p>Please provide us with your inspection details.</p>
+                    <fieldset class="fieldset-inspection-info">
+                        <div id="inspection-date">Inspection date <input type="date" id="inspection-date" name="inspection-date"><span class="error-message" id="inspection-date-error"></span></div>
+                        <div id="inspection-type">Inspection type <input type="text" id="inspection-type" name="inspection-type" placeholder="Enter inspection type"><span class="error-message" id="inspection-type-error"></span></div>
+                        <div id="message">Comments <textarea name="comment" rows="5" placeholder="General comments"></textarea>
                             <span class="error-message" id="message-error">max characters: 255</span>
                         </div>
                     </fieldset>
                     <input type="hidden" name="_next" value="https://sizwedoctormkoneni.github.io/MyPortfolio/index.html">
                     <input type="hidden" name="_captcha" value="false">
                     <div class="message-btn">
-                        <button class="btn quote-btn" type="submit">Submit</button>
+                        <button class="btn quote-btn" type="submit">Book</button>
                     </div>
             </form>
         </div>
     </section>
     <!-- End booking section -->
-
-    <!-- CTA Section -->
-    <section class="cta">
-        <div class="cta-container">
-            <div class="cta-text">
-                <h3>Let's Get  Your Car Road Ready!</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui vitae facere rerum 
-                    quibusdam blanditiis laboriosam!
-                </p>
-                <div class="cta-btns">
-                    <button class="btn"><a href="contact.html">Contact Us</a></button>
-                    <button class="btn">Book an Inspection <i class="fa-solid fa-arrow-right"></i></button>
-                </div>
-            </div>
-            <div class="cta-image">
-                <img src="images/tire-and-track-illustration-png.png" alt="car-avatar">
-            </div>
-        </div>
-    </section>
-    <!-- End CTA Section -->
 
     <!-- footer -->
     <section class="footer">
@@ -132,6 +124,21 @@
                     Email: kmokoena48@gmail.com
                 </div>
             </div>
+            <div class="trading-hours">
+                <h4>Trading Hours</h4>
+                <div class="trading-hour">
+                    Monday - Friday: 08:00 - 17:00
+                </div>
+                <div class="trading-hour">
+                    Saturday: 08:00 - 13:00
+                </div>
+                <div class="trading-hour">
+                    Sunday & Public Holidays: Closed
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 Balesedi Koenas Care.</p><p>All rights reserved.</p> <p>Made with <i class="fa-solid fa-heart"></i> by <a href="https://sizwedoctormkoneni.github.io/MyPortfolio/">SIZ.DEV</a></p>
         </div>
     </section>
     <!-- End footer -->

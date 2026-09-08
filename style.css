@@ -368,6 +368,12 @@ h3{
     margin-left: 0;
 }
 
+
+.logo-poster{
+    display: flex;
+    align-items: center;
+}
+
 .logo-poster img{
     width: 250px;
     height: 250px;
@@ -743,6 +749,56 @@ input::placeholder, textarea::placeholder{
     padding: 40px 80px;
     width: 70%;
 }
+
+.form-description{
+    margin-bottom: 40px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.form h3{
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.form-container .fieldset-vehicle-info, .fieldset-contact-info, .fieldset-inspection-info{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    border: none;
+    width: 100%;
+    margin: 40px 0;
+}
+
+.form-container .fieldset-vehicle-info div, .fieldset-contact-info div, .fieldset-inspection-info div{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.form-container .fieldset-inspection-info div:nth-last-of-type(1){
+    width: 94%;
+}
+
+.form-container .fieldset-vehicle-info div input, .fieldset-contact-info div input, .fieldset-inspection-info div input, .fieldset-vehicle-info div textarea, .fieldset-contact-info div textarea, .fieldset-inspection-info div textarea{
+    width: 100%;
+    height: 30px;
+    background-color: white !important;
+    color: black;
+    margin-top: 12px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid red;
+}
+
+.form-container .fieldset-inspection-info div textarea{
+    field-sizing: content;
+    height: 100px;
+    margin-bottom: 5px;
+    resize: none;
+}                                               
+
 
 
 
