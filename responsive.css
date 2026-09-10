@@ -113,7 +113,7 @@
     }
 
     .service{
-        width: 430px;
+        width: 80%;
         height: 400px;
     }
 
@@ -470,6 +470,13 @@
         margin: 5px 0 0 0;
     }
 
+    .explore-btn a{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
     /*#########################################################################################*/
 
     .contact{
@@ -575,6 +582,15 @@
     .trading-hours{
         align-items: center;
         margin-top: 30px;
+    }
+
+    .trading-hours h4{
+        margin-bottom: 15px;
+    }
+
+    .trading-hour{
+        margin: 0;
+        margin-bottom: 10px;
     }
 
     .quick-links, .contacts{
@@ -805,7 +821,7 @@
     }
 
     .services-container{
-        padding: 0 20px;
+        padding: 0;
     }
 
     .service{
@@ -841,6 +857,17 @@
         height: 27x;
     }
 
+    .explore-btn a{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .explore-btn .btn{
+        width: 70%;
+    }
+
     .cta-container{
         width: 100%;
         display: flex;
@@ -865,22 +892,26 @@
     }
 
     .cta-btns{
-        width: 75%;
+        width: 100%;
         flex-direction: column;
     }
 
-    .cta-btns .btn:nth-of-type(1){
+    .cta-btns a{
+        width: 70%;
+    }
+
+    .cta-btns .btn-1{
         width: 100%;
         height: auto;
         margin-bottom: 15px;
     }
 
-    .cta-btns .btn:nth-of-type(2){
+    .cta-btns .btn-2{
         border: 1px solid;
         width: 100%;
     }
 
-    .cta-btns .btn:nth-of-type(2):hover{
+    .cta-btns .btn-2:hover{
         border: none;
     }
 
@@ -913,12 +944,21 @@
     .quick-links, .contacts{
         text-align: center;
         width: 60%;
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     .contacts .contact{
         margin: 0;
-        padding: 10px 0;
+        padding: 5px 0;
+    }
+
+    .trading-hours h4{
+        margin-bottom: 15px;
+    }
+
+    .trading-hour{
+        margin: 0;
+        margin-bottom: 10px;
     }
 
     input::placeholder, textarea::placeholder{
@@ -931,12 +971,23 @@
     }
 
     .logo-poster{
-        margin-bottom: 30px;
+        margin: 20px 0 0 0;
     }
 
     .logo-poster img{
         width: 130px;
         height: 130px;
+    }
+
+    .copyright{
+        flex-direction: column;
+        padding: 30px 0;
+        height: auto;
+    }
+
+    .copyright p{
+        margin: 5px 0;
+        text-align: center;
     }
 
     /*##########################################################################*/
