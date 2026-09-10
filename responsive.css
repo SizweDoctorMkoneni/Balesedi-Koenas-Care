@@ -225,13 +225,43 @@
         width: 220px;
         height: 220px;
     }
+
+/*###################################################################################*/
+    .inspection-booking-header{
+        margin-top: 140px;
+    }
+
+    .form-container .message-btn .btn{
+        width: 40%;
+    }    
 }
 
 /******************************** 
     Medium Devices - 1024px
 *********************************/
 @media (max-width: 1024px){
-    
+
+/*####################################################################################*/    
+    .form-container{
+        padding: 40px 70px 80px 70px;
+        width: 85%;
+    }
+
+    .form h3{
+        font-size: 1.3rem;
+    }
+
+    .form-container .fieldset-vehicle-info, .fieldset-contact-info, .fieldset-inspection-info{
+        gap: 40px;
+    }
+
+    .form-container .fieldset-inspection-info div:nth-last-of-type(1){
+        width: 94%;
+    }
+
+    .form-container .fieldset-vehicle-info div input, .fieldset-contact-info div input, .fieldset-inspection-info div input{
+        margin-top: 0;
+    }
 }
 
 /******************************** 
@@ -542,6 +572,11 @@
         align-items: center;
     }
 
+    .trading-hours{
+        align-items: center;
+        margin-top: 30px;
+    }
+
     .quick-links, .contacts{
         text-align: center;
         width: 60%;
@@ -564,6 +599,35 @@
     .logo-poster img{
         width: 200px;
         height: 200px;
+    }
+
+/*#################################################################################*/
+    .inspection-booking-header{
+        margin-top: 170px;
+    }
+
+.form-container{
+        padding: 40px 70px 80px 70px;
+        width: 90%;
+    }
+
+    .form h3{
+        font-size: 1.2rem;
+    }
+
+    .form-container .fieldset-vehicle-info div, .fieldset-contact-info div, .fieldset-inspection-info div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .form-container .fieldset-inspection-info div:nth-last-of-type(1){
+        width: 98%;
+    }  
+
+    .form-container .quote-btn{
+        width: 50%;
+        height: auto;
     }
     
 }
@@ -873,5 +937,47 @@
     .logo-poster img{
         width: 130px;
         height: 130px;
+    }
+
+    /*##########################################################################*/
+    .inspection-booking-header{
+        margin-top: 130px;
+        height: 160px;
+    }
+
+    .form-container{
+        padding: 40px 40px 80px 40px;
+        width: 100%;
+    }
+
+    .form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form h3, p{
+        text-align: center;
+    }
+
+    .form-container .message-btn{
+        width: 100%;
+        height: auto;
+    }
+
+    .form-container .message-btn .btn{
+        width: 100%;
+        height: auto;
+    }
+
+    .form-container .fieldset-vehicle-info, .fieldset-contact-info, .fieldset-inspection-info{
+        margin-top: 20px;
+    }
+
+    .form-container .fieldset-vehicle-info div, .fieldset-contact-info div, .fieldset-inspection-info div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
 }
