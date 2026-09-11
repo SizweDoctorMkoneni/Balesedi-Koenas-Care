@@ -655,6 +655,14 @@ input::placeholder, textarea::placeholder{
     justify-content: center;
 }
 
+.message-btn button{
+    width: 30%;
+    height: 40px;
+    background-color: red;
+    color: #ffff;
+    border: none;
+}
+
 /*########################################################################*/
 .our-services{
     display: flex;

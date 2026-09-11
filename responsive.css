@@ -532,6 +532,10 @@
     width: 80%;
     }
 
+    .contact-form .message-btn button{
+        width: 35%;
+    }
+
     /*#########################################################################################*/
 
     .cta-container{
@@ -822,11 +826,23 @@
         padding-top: 25px;
     }
 
+    .contact-header{
+        height: 140px;
+    }
+
     .sub-heading{
         margin-bottom: 20px;
     }
     .contact .contact-form{
         margin-bottom: 10px;
+    }
+
+    .contact-form .message-btn{
+        width: 100%;
+    }
+
+    .contact-form .message-btn button{
+        width: 100%;
     }
 
     .contact-content{
