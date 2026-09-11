@@ -466,6 +466,7 @@ h3{
     width: 30%;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     margin-right: 40px;
     height: auto;
     background-color:beige;
@@ -486,7 +487,7 @@ h3{
 .framework h3{
     font-size: 1.2em;
     margin-top: 15px;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .about-text{

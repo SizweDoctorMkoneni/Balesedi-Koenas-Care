@@ -49,21 +49,25 @@
     }
 
     .about-text{
-        padding: 0 30px 0 40px;
-    }
-
-    .about-text:nth-last-child(2){
-        padding: 0 60px 0 0;
+        padding: 0;
+        padding-left: 60px;
+        width: 50%;
     }
 
     .about-image{
-        width:45%;
+        width: 50%;
         height: 330px;
     }
 
     .about-image img{
-        width: 90%;
-        height: 90%;
+        width: 100%;
+        height: 100%;
+    }
+
+    .about-frameworks{
+        padding: 40px 40px;
+        gap: 30px;
+        width: 100%;
     }
 
     /*#####################################################################*/
@@ -373,7 +377,8 @@
     }
 
     .about-header{ 
-        height: 160px; 
+        height: 160px;
+        margin-top: 140px;
     }
 
     .about-content{
@@ -383,8 +388,7 @@
     }
 
     .about-image{
-        width: 90%;
-        padding: 0 30px 40px 30px;
+        width: 95%;
     }
 
     .about-text{
@@ -392,6 +396,23 @@
         width: 90%;
         padding: 0;
         text-align: center;
+    }
+
+    .about-frameworks{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .framework{
+        width: 90%;
+        margin-right: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .framework span{
+        letter-spacing: 1px;
     }
 
     .explore-btn{
@@ -748,6 +769,14 @@
 
     .about-content{
         padding: 40px 30px;
+    }
+
+    .about-frameworks{
+        width: 100%;
+    }
+
+    .framework{
+        width: 100%;
     }
 
     /*#################################################################*/
