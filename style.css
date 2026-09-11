@@ -201,7 +201,7 @@ h3{
 
 .service:hover .service-image img{
     opacity: 0.7;
-    box-shadow: 0 0 10px red;
+    box-shadow: 0 0 10px grey;
 }
 
 .service-image{
