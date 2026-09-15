@@ -437,7 +437,7 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(images/about-us\ \(2\).jpg);
+    background-image: url(images/about-image.webp);
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -534,7 +534,7 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(images/contact-us.jpg);
+    background-image: url(images/contact-us.webp);
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -676,7 +676,7 @@ input::placeholder, textarea::placeholder{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(images/Services.jpg);
+    background-image: url(images/Services.webp);
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -744,7 +744,7 @@ input::placeholder, textarea::placeholder{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(images/book-an-inspection.png);
+    background-image: url(images/book-an-inspection.webp);
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
