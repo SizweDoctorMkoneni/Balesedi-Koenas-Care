@@ -51,28 +51,83 @@
 
     .about-content{
         padding: 40px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .image-text{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-content p{
+        margin-bottom: 30px;
+        font-size: 1.2rem;
     }
 
     .about-text{
         padding: 0;
-        padding-left: 60px;
-        width: 50%;
+        margin-top: 60px;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .about-text h3{
+        line-height: 1;
+    }
+
+    .about-text p{
+        margin-bottom: 0;
+        font-size: 1rem;
+        text-align: center;
     }
 
     .about-image{
-        width: 50%;
+        width: 100%;
         height: 330px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .about-image p{
+        width: 50%;
+        margin: 0 0 0 30px;
+        font-size: 1rem;
     }
 
     .about-image img{
-        width: 100%;
+        width: 50%;
         height: 100%;
     }
 
     .about-frameworks{
         padding: 40px 40px;
         gap: 30px;
+        flex-wrap: wrap;
         width: 100%;
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .about-frameworks h3{
+        font-size: 2rem;
+    }
+
+    .frameworks{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        margin-top: 0;
+    }
+
+    .framework h3{
+        font-size: 1.2rem;
     }
 
     /*#####################################################################*/
