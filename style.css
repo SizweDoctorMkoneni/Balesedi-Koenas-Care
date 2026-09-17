@@ -453,6 +453,7 @@ h3{
 .about-content p{
     line-height: 1.5;
     margin-bottom: 30px;
+    font-size: 1rem;
 }
 
 .about-frameworks{
@@ -469,7 +470,8 @@ h3{
     flex-wrap: wrap;
     margin-right: 40px;
     height: auto;
-    background-color:beige;
+    background-color:black;
+    color: white;
     padding: 20px;
 }
 

@@ -849,6 +849,14 @@
         padding: 20px 20px;
     }
 
+    .about-image p{
+        font-size: 12px;
+    }
+
+    .about-text p{
+        font-size: 12px;
+    }
+
     .about-frameworks{
         width: 100%;
         padding: 20px;
@@ -882,6 +890,7 @@
 
     .service-content p{
         text-align: center;
+        font-size: 1rem;
     }
 
     .service-cards{
@@ -897,6 +906,7 @@
 
     .card p{
         width: 92%;
+        font-size: 12px;
     }
 
     .card img{
@@ -924,6 +934,12 @@
 
     .sub-heading{
         margin-bottom: 20px;
+        padding: 0 20px;
+    }
+
+    .sub-heading p{
+        font-size: 1rem;
+        width: 95%;
     }
     .contact .contact-form{
         margin-bottom: 10px;
@@ -1145,7 +1161,12 @@
     }
 
     .form-container{
-        padding: 40px 40px 80px 40px;
+        padding: 40px 25px 80px 25px;
+        width: 100%;
+    }
+
+    .form-description{
+        font-size: 1rem;
         width: 100%;
     }
 
