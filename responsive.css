@@ -3,6 +3,10 @@
 *********************************/
 @media (max-width: 1470px){
 
+    .ctabar-item a{
+        font-size: 14px;
+    }
+
     .navbar{
         justify-content: space-between;
         padding: 10px 30px;
@@ -83,7 +87,7 @@
 
     .about-text p{
         margin-bottom: 0;
-        font-size: 1rem;
+        font-size: 14px;
         text-align: center;
     }
 
@@ -98,7 +102,7 @@
     .about-image p{
         width: 50%;
         margin: 0 0 0 30px;
-        font-size: 1rem;
+        font-size: 14px;
     }
 
     .about-image img{
@@ -130,6 +134,10 @@
         font-size: 1.2rem;
     }
 
+    .framework p{
+        font-size: 14px;
+    }
+
     /*#####################################################################*/
     .service-header{
         height: 185px;
@@ -138,6 +146,10 @@
     .service-cards{
         padding: 20px;
         gap: 50px;
+    }
+
+    .service-content p{
+        font-size: 1.2rem;
     }
 
     .card{
@@ -153,7 +165,9 @@
         font-size: 1.2em;
     }
 
-
+    .card p{
+        font-size: 14px;
+    }
 
     /*#########################################################################################*/
 
@@ -202,6 +216,9 @@
 
     .sub-heading{
         margin: 40px 0 40px 0;
+        width: 80%;
+        text-align: center;
+        font-size: 1.2rem;
     }
 
     .contact-content{
@@ -219,6 +236,10 @@
         width: 45%;
     }
 
+    .content p{
+        font-size: 14px;
+    }
+
     .content iframe{
         width: 100%;
         height: 250px;
@@ -226,6 +247,14 @@
 
     .contact-form{
     width: 70%;
+    }
+
+    .contact-form .fieldset{
+        font-size: 14px;
+    }
+
+    .contact-form input::placeholder, textarea::placeholder{
+        font-size: 14px;
     }
 
     /*#########################################################################################*/
@@ -244,6 +273,7 @@
 
     .cta-text p{
         width: 100%;
+        font-size: 14px;
     }
 
     .cta-btns{
@@ -285,10 +315,20 @@
 
     .quick-links{
         width: 33%;
+        font-size: 14px;
     }
 
     .contacts{
         align-items: flex-start;
+        font-size: 14px;
+    }
+
+    .trading-hours{
+        font-size: 14px;
+    }
+
+    .copyright{
+        font-size: 14px;
     }
 
     .logo-poster img{
@@ -308,7 +348,15 @@
 
     .form-container .message-btn .btn{
         width: 40%;
-    }    
+    }
+
+    .form-description{
+        font-size: 1.2rem;
+    }
+
+    .form div, .form input::placeholder, .form p{
+        font-size: 14px;
+    }
 }
 
 /******************************** 
@@ -480,12 +528,30 @@
         align-items: center;
     }
 
+    .image-text{
+        align-items: center;
+    }
+
     .about-image{
         width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .about-image img{
+        width: 100%;
+    }
+
+    .about-image p{
+        margin-top: 30px;
+        margin-left: 0;
+        width: 90%;
     }
 
     .about-text{
-        margin-top: 60px;
+        margin-top: 90px;
         width: 90%;
         padding: 0;
         text-align: center;
@@ -494,7 +560,15 @@
     .about-frameworks{
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         margin: 0;
+    }
+
+    .frameworks{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
     }
 
     .framework{
@@ -502,6 +576,7 @@
         margin-right: 0;
         display: flex;
         align-items: center;
+        margin-bottom: 40px;
     }
 
     .framework span{
@@ -533,6 +608,10 @@
         text-align: center;
     }
 
+    .service-content p{
+        font-size: 1.1rem;
+    }
+
     .service-cards{
         padding: 10px;
         gap: 50px;
@@ -541,6 +620,10 @@
     .card{
         width: 40%;
         height: auto;
+    }
+
+    .card p{
+        font-size: 14px;
     }
 
     .card img{
@@ -565,6 +648,7 @@
     .services p{
         width: 90%;
         margin: 35px 0;
+        font-size: 1.1rem;
     }
 
     .services a{
@@ -582,6 +666,7 @@
 
     .service-description p{
         margin: 5px 0 0 0;
+        font-size: 14px;
     }
 
     .explore-btn a{
@@ -603,6 +688,10 @@
 
     .contact-header h1{
         font-size: 2rem;
+    }
+
+    .contact .sub-heading{
+        font-size: 1.1rem;
     }
 
     .contact-content{
@@ -748,7 +837,7 @@
         font-size: 2rem;
     }
 
-.form-container{
+    .form-container{
         padding: 40px 70px 80px 70px;
         width: 90%;
     }
@@ -779,6 +868,10 @@
         width: 50%;
         height: auto;
     }
+
+    .form-description{
+        font-size: 1.1rem;
+    }
     
 }
 
@@ -803,6 +896,10 @@
     }
     .ctabar-item:nth-child(2){
         margin-bottom: 0;
+    }
+
+    .ctabar-item a{
+        font-size: 12px;
     }
 
     .navbar{
@@ -871,7 +968,7 @@
 
     .hero-text h1{
         text-align: center;
-        font-size: 1.6rem;
+        font-size: 1.9rem;
         margin-bottom: 15px;
         width: 85%;
     }
@@ -893,7 +990,7 @@
 
     .about-header{ 
         height: 140px;
-        margin-top: 120px;
+        margin-top: 110px;
     }
 
     .about-header h1{
@@ -904,8 +1001,16 @@
         padding: 20px 20px;
     }
 
+    .about-content p{
+        font-size: 1rem;
+    }
+
     .about-image p{
         font-size: 12px;
+    }
+
+    .about-text{
+        margin-top: 40px;
     }
 
     .about-text p{
@@ -914,7 +1019,7 @@
 
     .about-frameworks{
         width: 100%;
-        padding: 20px;
+        padding: 40px 20px 20px;
     }
     .about-frameworks h3{
         font-size: 2rem;
@@ -929,6 +1034,10 @@
         font-size: 1rem;
     }
 
+    .framework p{
+        font-size: 12px;
+    }
+
     /*#################################################################*/
 
     .our-services{
@@ -937,6 +1046,11 @@
 
     .service-header{
         height: 140px;
+        margin-top: 120px;
+    }
+
+    .service-header h1{
+        margin-top: 20px;
     }
 
     .service-content{
@@ -980,21 +1094,22 @@
 
     .contact-header{
         height: 160px;
-        margin-top: 120px;
+        margin-top: 110px;
     }
 
     .contact-header h1{
+        margin-top: 7px;
         font-size: 1.8rem;
     }
 
     .sub-heading{
         margin-bottom: 20px;
-        padding: 0 20px;
+        padding: 0;
     }
 
     .sub-heading p{
         font-size: 1rem;
-        width: 95%;
+        width: 100%;
     }
     .contact .contact-form{
         margin-bottom: 10px;
@@ -1009,8 +1124,16 @@
         width: 100%;
     }
 
+    .contact-form .fieldset div, .fieldset input::placeholder{
+        font-size: 12px;
+    }
+
     .contact-content{
         margin-bottom: 10px;
+    }
+
+    .contact-content .content p{
+        font-size: 12px;
     }
 
     .services{
@@ -1236,6 +1359,10 @@
         text-align: center;
     }
 
+    .form p{
+        font-size: 12px;
+    }
+
     .form-container .message-btn{
         width: 100%;
         height: auto;
@@ -1254,9 +1381,10 @@
         display: flex;
         flex-direction: column;
         width: 100%;
+        font-size: 12px;
     }
 
-    input[type="text"], input[type="email"], input[type="tel"], input[type="date"], input[type="time"], textarea{
+    input[type="text"]::placeholder, input[type="email"]::placeholder, input[type="tel"]::placeholder, input[type="date"]::placeholder, input[type="time"]::placeholder, textarea{
         font-size: 12px;
     }
 }
