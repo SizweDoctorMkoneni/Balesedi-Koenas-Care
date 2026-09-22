@@ -299,12 +299,12 @@ h3{
 .cta-btns{
     width: 45%;
     display: flex;
-    justify-content: space-evenly;
 }
 
 .cta-btns .btn-1{
     background-color: black;
     color: #ffff;
+    margin-right: 40px;
 }
 
 .cta-btns .btn-2{
@@ -447,25 +447,41 @@ h3{
     padding: 40px 80px;
     margin-top: 30px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 .about-content p{
     line-height: 1.5;
     margin-bottom: 30px;
     font-size: 1rem;
+    text-align: center;
+}
+
+.image-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .about-frameworks{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     padding: 40px 40px;
     margin-top: 30px;
 }
 
+.about-frameworks h3{
+    margin-bottom: 30px;
+}
+
 .frameworks{
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 30px;
     margin-top: 0;
@@ -502,8 +518,12 @@ h3{
 }
 
 .about-text{
-    width: 50%;
-    padding: 0 0 0 120px;
+    width: 100%;
+    margin-top: 40px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .about-text h3{
@@ -511,20 +531,27 @@ h3{
     margin-bottom: 30px;
 }
 
+.about-text p{
+    width: 85%;
+}
+
 .about-image{
-    width:40%;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: center;
     height: auto;
+    margin: 40px;
 }
 
 .about-image img{
-    width: 90%;
-    height: 90%;
+    width: 35%;
+    height: 35%;
 }
 .about-image p{
-    margin: 30px 0 0;
+    margin: 0 30px 0;
+    text-align: left;
+    width: 50%;
 }
 
 .about-header h1{
